@@ -8,9 +8,6 @@ from time import sleep
 
 
 def capture_screen(page):
-    """
-    If iteration passed to the function it will save the screen shots!
-    """
 
     screenshot = page.screenshot()
     screenshot = np.frombuffer(screenshot, dtype=np.uint8)
@@ -44,7 +41,6 @@ def main():
         page.goto("https://plays.org/game/zig-zag/")
         sleep(3)
         press_space(page)  # Skip the initial menu
-        print("pressed")
         sleep(1)
         press_space(page)  # Start the game
 
