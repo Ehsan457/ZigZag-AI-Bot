@@ -44,14 +44,14 @@ This project automates the "Zig-Zag" game using Python. The bot uses computer vi
 1. **Run the automation script**:
 
     ```bash
-    python main.py
+    python dev.py
     ```
 
 2. The script will open the Zig-Zag game in a browser, start the game, and attempt to play it by automatically pressing the space bar to change direction.
 
 ## Project Structure
 
-- `main.py`: The main script to run the automation.
+- `dev.py`: The main script to run the automation.
 - `assets/`: Directory containing the `ScoreBoard.png` used for template matching.
 - `images/`: Directory where processed images are saved during each iteration.
 
